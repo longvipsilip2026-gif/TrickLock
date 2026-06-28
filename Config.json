@@ -1,0 +1,8 @@
+[
+  {
+    "enabled": true,
+    "name": "Aimlock Auto Chin-Lock",
+    "url": "*",
+    "script": "const TARGET_BONE_CHIN = 'chin'; const LOCK_SENSITIVITY = 0.8; function onMouseDrag(event) { if (isEnemyInSight()) { const chinPosition = getEnemyBonePosition(TARGET_BONE_CHIN); if (chinPosition) { lockCrosshairTo(chinPosition, LOCK_SENSITIVITY); } } }"
+  }
+]
