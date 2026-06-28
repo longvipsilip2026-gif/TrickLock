@@ -1,0 +1,23 @@
+{
+  "weapon_id": "custom_rifle_01",
+  "aim_assist_system": {
+    "enable_aimlock": true,
+    "lock_target_bone": "Head",
+    "lock_strength": 1.0, 
+    "aim_fov_angle": 15.0,
+    "smoothing_factor": 0.0
+  },
+  "ballistics_settings": {
+    "perfect_bullet_trajectory": true,
+    "bullet_spread_min": 0.0,
+    "bullet_spread_max": 0.0,
+    "recoil_force_pitch": 0.0,
+    "recoil_force_yaw": 0.0,
+    "camera_shake_intensity": 0.0
+  },
+  "mobile_input_settings": {
+    "touch_sensitivity_multiplier": 2.5,
+    "drag_shot_assist_boost": 1.8,
+    "input_response_delay_frames": 0
+  }
+}
