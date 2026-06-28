@@ -1,0 +1,8 @@
+[
+  {
+    "enabled": true,
+    "name": "Aimlock - Rigid Chin Lock (Freeze)",
+    "url": "*",
+    "script": "let isLocked = false; let lockedPosition = null; function onFireButtonDrag(event) { if (!isLocked) { const chinPos = getEnemyBonePosition('chin'); if (chinPos) { lockedPosition = chinPos; isLocked = true; } } if (isLocked && lockedPosition) { freezeCrosshairAt(lockedPosition.x, lockedPosition.y); preventMouseMovement(); } } function onFireButtonRelease() { isLocked = false; lockedPosition = null; releaseMouseMovement(); }"
+  }
+]
